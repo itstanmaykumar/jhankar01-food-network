@@ -48,6 +48,7 @@ body{
     font-weight: 500;
     padding: 15px 25px;
     border-radius: 25px;
+    box-shadow: 0 0 10px #fb954b;
 }
 #img-person01{
     width: 100%;
@@ -68,7 +69,6 @@ body{
 
 /* section 02 - about */
 #about{
-    width: 90%;
     min-height: 450px;
     display: flex;
     background: url(../img/shapes/about-back.png);
@@ -91,6 +91,40 @@ body{
 }
 
 
+
+
+
+/* section - recipies */
+#recipies{
+    text-align: center;
+    margin-top: 100px;
+}
+#recipie-header p{
+    margin: 30px auto;
+    width: 70%;
+}
+#recipie-container{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.recipie-box{
+    width: 25%;
+    margin: auto;
+    padding: 1.5%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #828282;
+    text-align: left;
+}
+.recipie-box img{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.recipie-box p{
+    margin: 15px 0;
+    text-align: left;
+}
 
 
 
