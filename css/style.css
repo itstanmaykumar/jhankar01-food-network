@@ -9,8 +9,9 @@ body{
 }
 .container{
     width: 90%;
-    margin: 0 auto;
+    padding: 0 5%;
 }
+
 
 
 
@@ -18,7 +19,6 @@ body{
 /* section 01 - showcase */
 #showcase{
     min-height: 600px;
-    width: 100%;
     display: flex;
 }
 .showcase-box{
@@ -29,7 +29,7 @@ body{
     padding-top: 140px;
 }
 #showcase-description h1{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 35px;
 }
@@ -40,7 +40,7 @@ body{
     font-size: 15px;
     letter-spacing: 0px;
     color: #828282;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .btn{
     background: linear-gradient(to right, #fb954b, #fe472d);
@@ -49,11 +49,6 @@ body{
     padding: 15px 25px;
     border-radius: 25px;
 }
-
-
-
-
-
 #img-person01{
     width: 100%;
     margin-top: -535px;
@@ -65,4 +60,69 @@ body{
     height: 170px;
     margin-top: 365px;
     margin-left: 57%;
+}
+
+
+
+
+
+/* section 02 - about */
+#about{
+    width: 90%;
+    min-height: 450px;
+    display: flex;
+    background: url(../img/shapes/about-back.png);
+    background-size: cover;
+}
+.about-box{
+    width: 40%;
+    margin: 0 5%;
+}
+#about-img img{
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -5px;
+}
+#about-description h1{
+    margin-top: 90px;
+}
+#about-description p{
+    margin: 30px 0 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 400px;
 }
