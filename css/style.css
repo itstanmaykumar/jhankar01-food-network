@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #575757;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+/* section 01 - showcase */
+#showcase{
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+}
+.showcase-box{
+    width: 40%;
+    margin: 50px auto;
+}
+#showcase-description{
+    padding-top: 140px;
+}
+#showcase-description h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+#showcase-description h1 span{
+    color: #fb954b;
+}
+#showcase-description p{
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #828282;
+    margin-bottom: 50px;
+}
+.btn{
+    background: linear-gradient(to right, #fb954b, #fe472d);
+    color: white;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+
+
+
+
+#img-person01{
+    width: 100%;
+    margin-top: -535px;
+}
+#dotted-shape{
+    background: url(../img/shapes/dotted-img-01.png);
+    background-size: cover;
+    width: 35%;
+    height: 170px;
+    margin-top: 365px;
+    margin-left: 57%;
+}
