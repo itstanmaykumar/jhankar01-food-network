@@ -121,9 +121,84 @@ body{
     margin-bottom: 30px;
     border-radius: 15px;
 }
+.recipie-box h2{
+    font-size: 20px;
+    font-weight: 600;
+}
 .recipie-box p{
     margin: 15px 0;
     text-align: left;
+}
+
+
+
+
+
+/* section 06 request */
+#request{
+    background: url(../img/shapes/request-back.jpg);
+    background-size: cover;
+    width: 80%;
+    padding: 0 10%;
+    min-height: 600px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+#request-header{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+#request-header h1{
+    color: #fe472d;
+}
+#request-header p{
+    margin: 20px 0;
+    font-size: 12px;
+}
+#request-container{
+    display: flex;
+    justify-content: space-between;
+}
+.request-box{
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input, form textarea{
+    width: 60%;
+    height: 35px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 30%;
+    padding: 0 20px;
+}
+form textarea{
+    padding-top: 10px;
+    height: 75px;
+}
+.request-box img{
+    width: 80%;
+}
+#newsletter{
+    display: flex;
+}
+#newsletter input{
+    width: 20px;
+}
+#newsletter p{
+    font-size: 12px;
+    padding: 10px 0 0 10px;
+}
+form .btn{
+    width: 25%;
+    margin-left: 200px;
+    padding-top: 8px;
+    border-radius: 10px;
 }
 
 
@@ -134,11 +209,12 @@ body{
 #social{
     color: black;
     width: 50%;
-    margin: 150px auto;
+    margin: 100px auto;
     padding: 10px 10%;
     border-radius: 20px;
     box-shadow: 0 0 25px #828282;
     text-align: center;
+    cursor: pointer;
 }
 .social-box{
     margin: 100px 0;
@@ -161,7 +237,7 @@ body{
 }
 .social-follower p{
     font-size: 10px;
-    color: #fe472d
+    color: #311f1d
 }
 
 
@@ -184,3 +260,6 @@ footer h1{
 Footer h1 span{
     color: #828282;
 }
+
+
+/* https://quotefancy.com/media/wallpaper/3840x2160/6399898-Kung-Fu-Panda-Quote-Your-mind-is-like-this-water-my-friend-When-it.jpg */
