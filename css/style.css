@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #575757;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #575757;
 }
 .container{
     width: 90%;
@@ -94,7 +94,7 @@ body{
 
 
 
-/* section - recipies */
+/* section 03 - recipies */
 #recipies{
     text-align: center;
     margin-top: 100px;
@@ -130,33 +130,57 @@ body{
 
 
 
+/* section 04 - social */
+#social{
+    color: black;
+    width: 50%;
+    margin: 150px auto;
+    padding: 10px 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #828282;
+    text-align: center;
+}
+.social-box{
+    margin: 100px 0;
+}
+.social-box h1{
+    font-size: 25px;
+    margin: 30px 0;
+}
+.social-box a{
+    font-size: 20px;
+    margin: 0 15px;
+    color: #fe472d;
+}
+.social-follower{
+    width: 30%;
+    display: inline-block;
+}
+.social-follower h2{
+    font-size: 35px;
+}
+.social-follower p{
+    font-size: 10px;
+    color: #fe472d
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* section - 05 footer */
 footer{
-    height: 400px;
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+footer h1{
+    color: #fb954b;
+    padding: 30px 0;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+Footer h1 span{
+    color: #828282;
 }
