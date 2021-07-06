@@ -24,13 +24,13 @@ header{
     display: flex;
     justify-content: space-between;
     height: 60px;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px #575757;
 }
 header div{
     width: 5%;
     margin: auto 0;
 }
-.header-box img{
+header div img{
     width: 70%;
 }
 nav{
@@ -59,18 +59,18 @@ nav a{
     width: 40%;
     margin: 50px auto;
 }
-#showcase-description{
+#showcase-text{
     padding-top: 140px;
 }
-#showcase-description h1{
+#showcase-text h1{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 35px;
 }
-#showcase-description h1 span{
+#showcase-text h1 span{
     color: #fb954b;
 }
-#showcase-description p{
+#showcase-text p{
     font-size: 15px;
     letter-spacing: 0px;
     color: #828282;
@@ -107,21 +107,22 @@ nav a{
     display: flex;
     background: url(../img/shapes/about-back.png);
     background-size: cover;
+    margin-bottom: 50px;
 }
 .about-box{
     width: 40%;
     margin: 0 5%;
 }
-#about-img img{
+.about-box img{
     width: 100%;
     margin-top: 90px;
-    margin-bottom: -5px;
+    margin-bottom: -4px;
 }
-#about-description h1{
-    margin-top: 90px;
+.about-box h1{
+    margin-top: 120px;
 }
-#about-description p{
-    margin: 30px 0 60px 0;
+.about-box p{
+    margin: 50px 0 80px 0;
 }
 
 
@@ -131,7 +132,7 @@ nav a{
 /* section 04 - recipies */
 #recipies{
     text-align: center;
-    margin-top: 100px;
+    padding-top: 80px;
 }
 #recipie-header p{
     margin: 30px auto;
@@ -229,11 +230,13 @@ form textarea{
     padding: 10px 0 0 10px;
 }
 form .btn{
-    width: 25%;
+    width: 27%;
     margin-left: 200px;
     padding-top: 8px;
     border-radius: 10px;
     box-shadow: none;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 
@@ -273,7 +276,7 @@ form .btn{
 }
 .social-follower p{
     font-size: 10px;
-    color: #311f1d
+    color: #fb954b;
 }
 
 
